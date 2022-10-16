@@ -1,13 +1,9 @@
 // Section 2.5.1 Ownership
-fn main() {
+ fn main() {
     let x = String::from("Hi");
-    let y = &x;
-    let z = x.clone();
-    println!("Value: {}", x);
-    println!("Reference: {}", y);
-    println!("Cloned value: {}", z);
+    let y = x;
+    println!("Hello: {}", x);
+    println!("Hello: {}", y);
 }
-// prints 
-// Value: Hi
-// Reference: Hi
-// Cloned value: Hi
+// Error: x value borrowed here 
+// after move
