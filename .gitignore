@@ -12,3 +12,4 @@ Cargo.lock
 .idea
 .idea/
 .idea/*.*
+/2_Chapter/memoization/target/
