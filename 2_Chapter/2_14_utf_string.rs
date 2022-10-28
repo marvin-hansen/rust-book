@@ -4,4 +4,4 @@ fn main() {
     println!("upp = {}", arg.to_uppercase());
 }
 // cargo run --quiet -- "dog" "cat" "parrot"
-// cargo run --quiet -- "🙈🙉🙊"
+// cargo run --quiet -- "Приветствую, мир"
