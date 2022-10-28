@@ -3,5 +3,5 @@ fn main() {
         .expect("should have one argument");
     println!("upp = {}", arg.to_uppercase());
 }
-// cargo run --quiet -- "dog" "cat" "parrot"
 // cargo run --quiet -- "Приветствую, мир"
+// Prints: upp = ПРИВЕТСТВУЮ, МИР
